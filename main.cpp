@@ -29,7 +29,7 @@ int main()
                 if(input=='A' || input=='a')
                 {
 
-                        cout<<"What is the item? \n";
+                        cout<<"What is the item?\n";
                                 if(numItems<5)
                                 {
                                         cin>>newItem;
@@ -43,6 +43,13 @@ int main()
 
                 }
            } while(q == true);
+
+        cout << "==ITEMS TO BUY==\n";
+
+        for(int index = 0; index < 5; index++)
+        {
+                cout<< index + 1 << " " << list[index] << endl;
+        }
 
 
 
