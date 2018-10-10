@@ -47,7 +47,7 @@ int main()
                                         pop = list.back(); 
                                         list.pop_back();
                                         
-                                        cout<< pop <<" was deleted from the list\n";
+                                        cout<< pop <<" was deleted from the list.\n";
                                         numItems--;
                                 }
         } while(q == true);
